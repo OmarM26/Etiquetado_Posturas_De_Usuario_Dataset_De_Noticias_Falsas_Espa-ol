@@ -1,6 +1,6 @@
 # BiLSTM Pair + (Distil)BERT Patch — 2025-09-16
 
-Este parche incluye:
+Este modelo incluye:
 - Congelamiento opcional de BERT y **cacheo de embeddings** para entrenamiento turbo.
 - **BiLSTM Pair** con **attention pooling** y features de pares `[zr, zp, |zr−zp|, zr*zp]`.
 - **FocalLoss** y **WeightedRandomSampler** para desbalance severo.
@@ -62,5 +62,3 @@ Ajusta `CFG.TRAIN_CSV`, `CFG.VAL_CSV`, `CFG.TEST_CSV`.
 - `CFG.MIXED_PRECISION = True`
 - `CFG.CACHE_EMBEDS = True` (Fase 1)
 - `CFG.BATCH_SIZE = 64` (sube si memoria lo permite en fase cache)
-
-¡Éxitos!
