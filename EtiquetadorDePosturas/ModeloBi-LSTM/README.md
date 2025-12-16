@@ -31,7 +31,7 @@ Scripts/
 
 ## Requisitos
 - Python 3.9+
-- PyTorch (con CUDA para tu GTX 1660 SUPER)
+- PyTorch (con CUDA para la tarjeta grafica [GTX 1660 Super])
 - `transformers`, `scikit-learn`, `pandas`, `numpy`
 
 ## Dataset esperado (mínimo)
